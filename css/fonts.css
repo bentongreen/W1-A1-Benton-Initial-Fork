@@ -1,7 +1,88 @@
-h1 {
-  font-family: 'Lato', sans-serif;
+header h1 {
+  font-family: Lato, sans-serif;
+  font-weight: 100;
 }
-#vol {
-  font-family: 'Lora', serif;
+header p {
+  font-family: Lora, serif;
   font-style: italic;
+}
+#feature h2 {
+  font-family: Oswald, sans-serif;
+}
+#feature h4 {
+  font-family: Merriweather, serif;
+}
+#feature p {
+  font-family: Merriweather, serif;
+  font-weight: 300;
+}
+#box-model h3 {
+  font-family: Lora, serif;
+  font-weight: 700;
+  font-style: italic;
+}
+#box-model p {
+  font-family: Lato, sans-serif;
+  text-align: center;
+}
+#afloat h3 {
+  font-family: Oswald, sans-serif;
+}
+#afloat p {
+  font-family: Lato, sans-serif;
+}
+#bullets h3 .font-change {
+  font-family: Lato, sans-serif;
+}
+#bullets h3 {
+  font-family: Oswald, sans-serif;
+}
+#bullets li {
+  font-family: Oswald, sans-serif;
+}
+#blocks h3 {
+  font-family: Oswald, sans-serif;
+}
+#blocks p {
+  font-family: Merriweather, serif;
+  font-weight: 300;
+}
+#borders h3 {
+  font-family: Oswald, sans-serif;
+}
+#borders p.emphasis {
+  font-family: Oswald, sans-serif;
+}
+#borders p {
+  font-family: Merriweather, serif;
+  font-weight: 300;
+}
+#transformers h3 {
+  font-family: Oswald, sans-serif;
+}
+#transformers p#review {
+  font-family: Lora, serif;
+  font-style: italic;
+}
+#transformers p {
+  font-family: Oswald, sans-serif;
+}
+#overflow p {
+  font-family: Lora, serif;
+  font-style: italic;
+  text-align: justify;
+}
+form h2 {
+  font-family: Oswald, sans-serif;
+}
+form label {
+  font-family: Lato, sans-serif;
+}
+footer {
+  font-family: Lato, sans-serif;
+}
+footer address {
+  font-family: Merriweather, serif;
+  font-style: normal;
+  float: right;
 }
