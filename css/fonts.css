@@ -2,50 +2,61 @@ header h1 {
   font-family: Lato, sans-serif;
   font-weight: 100;
   color: #fff;
+  font-size: 279px;
 }
 header p {
   font-family: Lora, serif;
   font-style: italic;
   color: #b8b8b8;
+  font-size: 12px;
 }
 section:nth-of-type(1) h2 {
   font-family: Oswald, sans-serif;
   color: #fdcd84;
+  font-size: 75px;
 }
 section:nth-of-type(1) h4 {
   font-family: Merriweather, serif;
   color: #cbb8a0;
+  font-size: 13px;
 }
 section:nth-of-type(1) p {
   font-family: Merriweather, serif;
   font-weight: 300;
   color: #000;
+  font-size: 25px;
 }
 section:nth-of-type(2) h3 {
   font-family: Lora, serif;
   font-weight: 700;
   font-style: italic;
   color: #5f5d66;
+  font-size: 36px;
 }
 section:nth-of-type(2) p {
   font-family: Lato, sans-serif;
   text-align: center;
   color: #5f5d66;
+  font-size: 19px;
 }
 section:nth-of-type(3) h3 {
   font-family: Oswald, sans-serif;
   color: #247a5a;
+  font-size: 21px;
 }
 section:nth-of-type(3) p {
   font-family: Lato, sans-serif;
   color: #464646;
+  font-size: 14px;
 }
 section:nth-of-type(4) h3 .font-change {
   font-family: Lato, sans-serif;
+  font-size: 12px;
 }
 section:nth-of-type(4) h3 {
   font-family: Oswald, sans-serif;
   color: #a97d35;
+  font-size: 15px;
 }
 section:nth-of-type(4) li {
   font-family: Oswald, sans-serif;
@@ -54,66 +65,113 @@ section:nth-of-type(4) li {
 section:nth-of-type(5) h3 {
   font-family: Oswald, sans-serif;
   color: #fff;
+  font-size: 49px;
 }
 section:nth-of-type(5) p {
   font-family: Merriweather, serif;
   font-weight: 300;
   color: #fff;
+  font-size: 26px;
 }
 section:nth-of-type(5) a {
   color: #b8b1ad;
+  font-size: 18px;
 }
 section:nth-of-type(6) h3 {
   font-family: Oswald, sans-serif;
   color: #000;
+  font-size: 82px;
 }
 section:nth-of-type(6) p.emphasis {
   font-family: Oswald, sans-serif;
   color: #000;
+  font-size: 39px;
 }
 section:nth-of-type(6) p {
   font-family: Merriweather, serif;
   font-weight: 300;
   color: #000;
+  font-size: 22px;
 }
 section:nth-of-type(7) h3 {
   font-family: Oswald, sans-serif;
   color: #fff;
+  font-size: 31px;
+}
+section:nth-of-type(7) h3 span.size-change {
+  font-size: 21px;
 }
 section:nth-of-type(7) p {
   color: #fff;
   font-family: Oswald, sans-serif;
-}
-section:nth-of-type(7) span.fade {
-  color: #75a8d0;
+  font-size: 14px;
 }
 section:nth-of-type(7) p:nth-of-type(1) {
   font-family: Lora, serif;
   font-style: italic;
   color: #fff;
+  font-size: 16px;
 }
 section:nth-of-type(7) p:nth-of-type(2) {
-  /*font-family: Oswald, sans-serif;*/
+  color: #75a8d0;
+  font-size: 14px;
+}
+section:nth-of-type(7) p:nth-of-type(2) span.size-change {
+  font-size: 32px;
+}
+section:nth-of-type(7) p:nth-of-type(3) {
+  font-size: 54px;
+}
+section:nth-of-type(7) ul {
+  list-style-type: none;
+}
+section:nth-of-type(7) ul li {
+  font-family: Oswald, sans-serif;
   color: #75a8d0;
 }
-
+section:nth-of-type(7) ul li:nth-of-type(1) {
+  font-size: 14px;
+}
+section:nth-of-type(7) ul li:nth-of-type(2) {
+  font-size: 27px;
+  color: #fff;
+}
+section:nth-of-type(7) ul li:nth-of-type(3) {
+  font-size: 28px;
+}
+section:nth-of-type(7) ul li:nth-of-type(4) {
+  font-size: 39px;
+  color: #fff;
+}
 section:nth-of-type(8) p {
   font-family: Lora, serif;
   font-style: italic;
   text-align: justify;
   color: #627078;
+  font-size: 16px;
 }
 form h2 {
   font-family: Oswald, sans-serif;
+  font-size: 28px;
 }
 form label {
   font-family: Lato, sans-serif;
+  font-size: 22px;
 }
 footer {
   font-family: Lato, sans-serif;
+  font-size: 17px;
+  color: #bababa;
 }
+footer strong.color-change {
+  color: #666; 
+}
+
 footer address {
   font-family: Merriweather, serif;
   font-style: normal;
   float: right;
+  font-size: 13px;
+  text-align: right;
+  color: #989898;
 }
