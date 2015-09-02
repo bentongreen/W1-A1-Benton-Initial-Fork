@@ -1,73 +1,95 @@
 header h1 {
   font-family: Lato, sans-serif;
   font-weight: 100;
+  color: #fff;
 }
 header p {
   font-family: Lora, serif;
   font-style: italic;
+  color: #b8b8b8;
 }
-#feature h2 {
+section:nth-of-type(1) h2 {
   font-family: Oswald, sans-serif;
+  color: #fdcd84;
 }
-#feature h4 {
+section:nth-of-type(1) h4 {
   font-family: Merriweather, serif;
+  color: #cbb8a0;
 }
-#feature p {
+section:nth-of-type(1) p {
   font-family: Merriweather, serif;
   font-weight: 300;
+  color: #000;
 }
-#box-model h3 {
+section:nth-of-type(2) h3 {
   font-family: Lora, serif;
   font-weight: 700;
   font-style: italic;
+  color: #5f5d66;
 }
-#box-model p {
+section:nth-of-type(2) p {
   font-family: Lato, sans-serif;
   text-align: center;
+  color: #5f5d66;
 }
-#afloat h3 {
+section:nth-of-type(3) h3 {
   font-family: Oswald, sans-serif;
+  color: #247a5a;
 }
-#afloat p {
+section:nth-of-type(3) p {
+  font-family: Lato, sans-serif;
+  color: #464646;
+}
+section:nth-of-type(4) h3 .font-change {
   font-family: Lato, sans-serif;
 }
-#bullets h3 .font-change {
-  font-family: Lato, sans-serif;
-}
-#bullets h3 {
+section:nth-of-type(4) h3 {
   font-family: Oswald, sans-serif;
+  color: #a97d35;
 }
-#bullets li {
+section:nth-of-type(4) li {
   font-family: Oswald, sans-serif;
+  color: #e0e0e0;
 }
-#blocks h3 {
+section:nth-of-type(5) h3 {
   font-family: Oswald, sans-serif;
+  color: #fff;
 }
-#blocks p {
+section:nth-of-type(5) p {
   font-family: Merriweather, serif;
   font-weight: 300;
+  color: #fff;
 }
-#borders h3 {
+section:nth-of-type(5) a {
+  color: #b8b1ad;
+}
+section:nth-of-type(6) h3 {
   font-family: Oswald, sans-serif;
+  color: #000;
 }
-#borders p.emphasis {
+section:nth-of-type(6) p.emphasis {
   font-family: Oswald, sans-serif;
+  color: #000;
 }
-#borders p {
+section:nth-of-type(6) p {
   font-family: Merriweather, serif;
   font-weight: 300;
+  color: #000;
 }
-#transformers h3 {
+section:nth-of-type(7) h3 {
   font-family: Oswald, sans-serif;
+  color: #fff;
 }
-#transformers p#review {
+section:nth-of-type(7) p#review {
   font-family: Lora, serif;
   font-style: italic;
+  color: #fff;
 }
-#transformers p {
+section:nth-of-type(7) p {
   font-family: Oswald, sans-serif;
+  color: #75a8d0;
 }
-#overflow p {
+section:nth-of-type(8) p {
   font-family: Lora, serif;
   font-style: italic;
   text-align: justify;
