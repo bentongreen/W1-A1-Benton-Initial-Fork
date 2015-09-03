@@ -185,7 +185,7 @@ section:nth-of-type(5) figcaption {
   margin-top: -33px;
 }
 /*border bottom*/
-section:nth-of-type(6) {
+/*section:nth-of-type(6) {
   background-color: grey;
 }
 section:nth-of-type(6) h1 {
@@ -193,17 +193,17 @@ section:nth-of-type(6) h1 {
 }
 section:nth-of-type(6) p:nth-of-type(1) {
   border-bottom: 3px solid #000; 
-}
+}*/
 /*transformers*/
-section:nth-of-type(7) {
+/*section:nth-of-type(7) {
   background-color: rgb(60, 131, 187);
   width: 225px;
   height: 715px;
-}
+}*/
 /*overflow*/
-section:nth-of-type(8) {
+/*section:nth-of-type(8) {
   background-color: orange;
-}
+}*/
 form {
   border: 1px solid rgb(231, 231, 231);
   padding: 20px;
