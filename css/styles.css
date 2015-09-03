@@ -1,26 +1,35 @@
 body {
-  width: 960px;
+  width: 1058px;
   margin: 0 auto;
+  background-color: red;
 }
-header {
-  
-}
-header p {
+/*masthead*/
+header p { 
   float: right;
   padding-top: 135px;
   padding-right: 10px;
 }
-article > h1 {
-  padding-left: 100px;
-  margin-left: -150px;
-  width: 440px;
+/*main content*/
+article {
+  position: relative;
+  z-index: -30000;
+  background-color: white;
 }
-article > img {
+article > h1 {
+  /*padding-left: 10px;*/
+  /*width: 440px;*/
+}
+div.background {
+  background-color: #ccc9da;
   position: absolute;
   top: 0;
   left: 0;
+  width: 60%;
+  height: 500px;
+  margin-left: -140px;
   z-index: -100;
 }
+/*positioning relatives*/
 section:nth-of-type(1) {
   float: right;
   padding-right: 30px;
@@ -36,25 +45,28 @@ section:nth-of-type(1) img {
   top: 180px;
   z-index: -10;
 }
+/*box model*/
 section:nth-of-type(2) {
-  /*background-color: rgb(214, 212, 226);*/
   width: 383px;
   height: 310px;
   float: left;
 }
+/*staying afloat*/
 section:nth-of-type(3) {
   background-color: yellow;
   clear: both;
 
 }
+/*bullets*/
 section:nth-of-type(4) {
   background-color: brown;
   border-color: rgb(233, 233, 233);
 }
+/*famous blocks*/
 section:nth-of-type(5) {
   width: 960px;
+  margin: 0 auto;
 }
-
 section:nth-of-type(5) figure {
   position: relative;
 }
