@@ -34,3 +34,127 @@ div.border-box-background {
   z-index: -1000;
 }
 /*** positioning relatives ***/
+section:nth-of-type(1) {
+  float: right;
+  margin-bottom: 20px;
+  width: 595px;
+}
+section:nth-of-type(1) h1 {
+  margin: 0 50px 20px -25px; /*margin & padding to match background gradient*/
+  padding: 3px 3px 3px 45px;
+  display: inline-block;
+}
+section:nth-of-type(1) h2 {
+  margin: 25px 50px 0 25px;
+}
+section:nth-of-type(1) p {
+  margin: 0 50px 0 25px;
+}
+section:nth-of-type(1) img:nth-of-type(1) {
+  position: absolute;
+  top: 150px;
+  left: 375px;
+  z-index: -900;
+}
+section:nth-of-type(1) img:nth-of-type(2) {
+  position: absolute;
+  top: 649px;
+  left: 300px;
+  z-index: -800;
+}
+/*** box model ***/
+section:nth-of-type(2) {
+  float: left;
+  position: relative;
+  margin-top: -40px;
+  padding-left: 30px;
+  width: 423px;
+  height: 310px;
+  z-index: 0;
+}
+section:nth-of-type(2) h1 {
+padding-bottom: 20px;
+}
+section:nth-of-type(2) p {
+  padding: 0px 25px; 
+}
+/*** box model ***/
+section:nth-of-type(2) figure {
+  margin: 0 0 10px -48px; /*positions image off-center*/
+}
+/*** staying afloat ***/
+section:nth-of-type(3) {
+  float: left;
+  width: 170px;
+  clear: both;
+}
+section:nth-of-type(3) p {
+  margin: 15px 0 10px 35px;
+}
+section:nth-of-type(3) figure {
+  position: relative;
+  top: 20px;
+  left: 45px;
+  width: 145px;
+  z-index: 10;
+}
+/*** bullets ***/
+section:nth-of-type(4) {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  width: 82%;
+  clear: right;
+}
+section:nth-of-type(4) h1 {
+  padding: 10px;
+  margin-right: 40px;
+}
+section:nth-of-type(4) h1 .font-change {
+  position: relative; 
+  top: -2px;
+}
+section:nth-of-type(4) figure {
+  margin: 25px 25px 0 60px;
+  width: 717px;
+}
+section:nth-of-type(4) ul {
+  margin: 0 auto;
+  width: 860px; 
+}
+section:nth-of-type(4) ul ul {
+  float: left;
+  margin-top: -290px;
+  padding: 245px 0px 100px 0px;
+}
+section:nth-of-type(4) ul ul:nth-of-type(1) {
+  margin-left: 15px;
+  padding: 245px 0px 30px 0px;
+  width: 156px; 
+}
+section:nth-of-type(4) ul ul:nth-of-type(2) {
+  padding: 245px 0px 30px 0px;
+  width: 164px;
+}
+section:nth-of-type(4) ul ul:nth-of-type(3) {
+  padding: 275px 0px 30px 0px;
+  width: 156px;
+}
+section:nth-of-type(4) ul ul:nth-of-type(4) {
+  padding: 220px 0px 30px 0px;
+  width: 162px;
+}
+section:nth-of-type(4) ul ul:nth-of-type(5) {
+  margin-right: 0;
+  padding: 228px 0px 30px 0px;
+  width: 171px;
+}
+/*** footer ***/
+footer {
+  margin-bottom: 80px;
+  padding-top: 23px;
+  width: 960;
+}
+footer address {
+  float: right;
+}
