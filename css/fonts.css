@@ -154,7 +154,7 @@ section:nth-of-type(7) h1 {
   color: #fff;
   font-size: 31px;
 }
-section:nth-of-type(7) h3 span.size-change {
+section:nth-of-type(7) span.size-change {
   font-size: 21px;
 }
 section:nth-of-type(7) p {

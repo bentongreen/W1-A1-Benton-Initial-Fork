@@ -183,6 +183,8 @@ section:nth-of-type(5) figcaption {
   line-height: 1.3em;
   display: block;
   margin-top: -33px;
+  z-index: -100;
+  position: relative;
 }
 /*border bottom*/
 /*section:nth-of-type(6) {
