@@ -1,0 +1,36 @@
+body {
+  margin: 0 auto;
+  width: 1058px;
+}
+/*** masthead ***/
+header p { 
+  float: right;
+  padding: 115px 120px 0 0;
+}
+/*** main content ***/
+article {
+  position: relative;
+}
+article > h1 {
+  margin-left: 20px;
+  z-index: -500;
+}
+div.header-background {
+  margin-left: -140px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 592px;
+  height: 1034px;  
+  z-index: -1000;
+}
+div.border-box-background {
+  position: absolute;
+  top: 664px;
+  left: 0;
+  width: 592px;
+  height: 370px;
+  margin-left: -140px;
+  z-index: -1000;
+}
+/*** positioning relatives ***/
