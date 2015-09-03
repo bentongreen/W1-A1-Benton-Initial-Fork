@@ -114,17 +114,8 @@ section:nth-of-type(4) h1 .font-change {
   position: relative; 
   top: -2px;
 }
-/*section:nth-of-type(4) figure {
-  margin: 25px 25px 0 60px;
-  width: 717px;
-}*/
-/*section:nth-of-type(4) ul {
-  margin: 0 auto;
-  width: 860px; 
-}*/
 section:nth-of-type(4) figure {
   float: left;
-  /*position: relative;*/
   margin-top: 20px;
 }
 section:nth-of-type(4) figcaption {
@@ -152,28 +143,141 @@ section:nth-of-type(4) figure:nth-of-type(4) figcaption {
 section:nth-of-type(4) figure:nth-of-type(5) figcaption {
   padding-top: 7px;
 }
-
 section:nth-of-type(4) figure:nth-of-type(1) {
   margin-left: 10px;
-  /*padding: 25px 0px 30px 0px;*/
   width: 156px; 
 }
 section:nth-of-type(4) figure:nth-of-type(2) {
-  /*padding: 25px 0px 30px 0px;*/
   width: 164px;
 }
 section:nth-of-type(4) figure:nth-of-type(3) {
-  /*padding: 25px 0px 30px 0px;*/
   width: 156px;
 }
 section:nth-of-type(4) figure:nth-of-type(4) {
-  /*padding-bottom: 30px;*/
   width: 162px;
 }
 section:nth-of-type(4) figure:nth-of-type(5) {
   margin-right: 0;
-  /*padding: 7px 0px 30px 0px;*/
   width: 171px;
+}
+/*** famous blocks ***/
+section:nth-of-type(5) {
+  width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+section:nth-of-type(5) figure {
+  position: relative;
+}
+section:nth-of-type(5) figcaption {
+  position: relative;
+  margin-top: -33px;
+  padding: 70px 25px 30px 25px;
+  z-index: -100;
+}
+section:nth-of-type(5) a {
+  padding-top: 30px;
+}
+section:nth-of-type(5) a img {
+  position: absolute;
+  top: 505px;
+  right: 0px;
+}
+/*** border bottom ***/
+section:nth-of-type(6) {
+  position: relative;
+  margin: 35px 0 25px 50px;
+  z-index: -110;
+}
+section:nth-of-type(6) h1 {
+  padding-bottom: 20px;
+}
+section:nth-of-type(6) h2 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+}
+section:nth-of-type(6) img {
+  margin-top: -180px;
+}
+/*** transformers ***/
+section:nth-of-type(7) {
+  position: relative;
+  width: 235px;
+  height: 715px;
+  margin: -745px 0 0 775px;
+  z-index: -100;
+}
+section:nth-of-type(7) h1 {
+  width: 195px;
+  margin: -100px 15px 5px 15px;
+  padding-bottom: 10px;
+}
+section:nth-of-type(7) p:first-of-type {
+  width: 195px;
+  margin: 5px 15px 5px 0px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+section:nth-of-type(7) p:nth-of-type(2) {
+  padding: 35px 0 60px 20px;  
+}
+.line-spanner {
+  margin-left: 5px;
+}
+section:nth-of-type(7) ul {
+  margin: 10px 15px 0 15px;
+}
+section:nth-of-type(7) li:first-of-type {
+  margin-top: 20px;
+}
+section:nth-of-type(7) img:first-of-type { /*dvd case image*/
+  margin: -100px 0 0 -30px; 
+}
+section:nth-of-type(7) img:nth-of-type(2) { /*rating bar image*/
+  float: left;
+  margin: -35px 0 0 20px; 
+}
+.dashed-border {
+  position: absolute;
+  right: 0;
+  top: 376px;
+  width: 235px;
+  height: 144px;
+}
+.circle{
+  position: absolute;
+  bottom: -14px;
+  right: 108px;
+  width: 28px;
+  height: 28px;
+  z-index: 1000;
+}
+/*** overflow ***/
+section:nth-of-type(8) {
+  width: 960px;
+  margin: 0 auto;
+}
+section:nth-of-type(8) img {
+  margin-left: -40px;
+  margin-top: -18px;
+}
+section:nth-of-type(8) p:nth-of-type(1) {
+  margin-top: -240px;
+}
+section:nth-of-type(8) p:nth-of-type(2) {
+  margin: 10px 0 0 10px;
+}
+section:nth-of-type(8) p:nth-of-type(3) {
+  margin-top: 40px;
+  margin-left: 140px;
+}
+/*** registration form ***/
+form h1 {
+  margin-bottom: 10px;
+}
+input {
+  margin-bottom: 10px;
 }
 /*** footer ***/
 footer {
