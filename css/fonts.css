@@ -49,11 +49,13 @@ section:nth-of-type(3) h1 {
   font-family: Oswald, sans-serif;
   color: #247a5a;
   font-size: 21px;
+  text-align: right;
 }
 section:nth-of-type(3) p {
   font-family: Lato, sans-serif;
   color: #464646;
   font-size: 14px;
+  text-align: right;
 }
 /*bullets*/
 section:nth-of-type(4) h1 {
@@ -129,6 +131,7 @@ section:nth-of-type(5) a:hover {
   color: #fff;
   text-decoration: underline;
 }
+/*border bottom*/
 section:nth-of-type(6) h1 {
   font-family: Oswald, sans-serif;
   color: #000;
@@ -145,6 +148,7 @@ section:nth-of-type(6) p {
   color: #000;
   font-size: 22px;
 }
+/*transformers*/
 section:nth-of-type(7) h1 {
   font-family: Oswald, sans-serif;
   color: #fff;
@@ -195,6 +199,7 @@ section:nth-of-type(7) ul li:nth-of-type(4) {
   font-size: 39px;
   color: #fff;
 }
+/*overflow*/
 section:nth-of-type(8) p {
   font-family: Lora, serif;
   font-style: italic;

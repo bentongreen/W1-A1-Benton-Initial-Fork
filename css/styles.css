@@ -1,22 +1,20 @@
 body {
   width: 1058px;
   margin: 0 auto;
-  background-color: red;
 }
 /*masthead*/
 header p { 
   float: right;
-  padding-top: 135px;
-  padding-right: 10px;
+  padding-top: 115px;
+  padding-right: 120px;
 }
 /*main content*/
 article {
   position: relative;
-  z-index: -30000;
-  background-color: white;
 }
 article > h1 {
   margin-left: 20px;
+    z-index: -500;
 }
 div.background {
   background-color: #ccc9da;
@@ -24,15 +22,14 @@ div.background {
   top: 0;
   left: 0;
   width: 56%;
-  height: 1024px;
+  height: 1034px;
   margin-left: -140px;
-  z-index: -100;
+  z-index: -1000;
 }
 /*positioning relatives*/
 section:nth-of-type(1) {
   float: right;
   width: 595px;
-  /*background-color: green;*/
   margin-bottom: 20px; 
 }
 section:nth-of-type(1) p,
@@ -44,6 +41,24 @@ section:nth-of-type(1) h2 {
 section:nth-of-type(1) h1 {
   letter-spacing: -.01em;
   margin-bottom: 20px;
+  margin-left: -20px;
+  padding: 3px 3px 3px 45px;
+  display: inline-block;
+  /*background gradient shield - from css-tricks.com*/
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .1)), color-stop(0.05, rgba(0, 0, 0, .1)), color-stop(0.5, rgba(0, 0, 0, .05)), color-stop(0.95, rgba(0, 0, 0, 0), to(rgba(0, 0, 0, 0))));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) 5%, rgba(0, 0, 0, .05), rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0));
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) 5%, rgba(0, 0, 0, .05), rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0));
+
+  /* IE 10 */
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) 5%, rgba(0, 0, 0, .05), rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0));
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(left, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) 5%, rgba(0, 0, 0, .05), rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0));
 }
 section:nth-of-type(1) h2 {
   margin-top: 25px;
@@ -51,14 +66,20 @@ section:nth-of-type(1) h2 {
 section:nth-of-type(1) p {
   line-height: 1.6em;
 }
-section:nth-of-type(1) img {
+section:nth-of-type(1) figure img:nth-of-type(1) {
   -ms-transform: rotate(-4deg); /* IE 9 */
   -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
   transform: rotate(-4deg);
   position: absolute;
   left: 375px;
   top: 150px;
-  z-index: -10;
+  z-index: -900;
+}
+section:nth-of-type(1) figure img:nth-of-type(2) {
+  position: absolute;
+  left: 300px;
+  top: 649px;
+  z-index: -800;
 }
 /*box model*/
 section:nth-of-type(2) {
@@ -66,6 +87,9 @@ section:nth-of-type(2) {
   height: 310px;
   float: left;
   padding-left: 30px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 0;
 }
 section:nth-of-type(2) p {
   padding: 0px 25px 0px 25px; 
@@ -77,14 +101,25 @@ section:nth-of-type(2) figure {
 }
 /*staying afloat*/
 section:nth-of-type(3) {
-  background-color: yellow;
-  width: 18%;
+  width: 170px;
   float: left;
   clear: both;
 }
+section:nth-of-type(3) p {
+  margin-top: 15px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  line-height: 1.35em;
+}
+section:nth-of-type(3) figure {
+  width: 145px;
+  position: relative;
+  left: 45px;
+  top: 20px;
+  z-index: 10;
+}
 /*bullets*/
 section:nth-of-type(4) {
-  /*background-color: brown;*/
   float: right;
   clear: right;
   width: 82%;
@@ -119,7 +154,6 @@ section:nth-of-type(4) ul ul:nth-of-type(1) {
 section:nth-of-type(4) ul ul:nth-of-type(2) {
   width: 164px;
   padding-bottom: 30px;
-  /*margin-left: 15px;*/
 }
 section:nth-of-type(4) ul ul:nth-of-type(3) {
   width: 156px;
@@ -136,7 +170,6 @@ section:nth-of-type(4) ul ul:nth-of-type(5) {
   padding-bottom: 30px;
   border-right: none;
   margin-right: 0;
-  /*background-color: orange;*/
 }
 /*famous blocks*/
 section:nth-of-type(5) {
@@ -170,6 +203,7 @@ section:nth-of-type(5) figcaption {
   display: block;
   margin-top: -33px;
 }
+/*border bottom*/
 section:nth-of-type(6) {
   background-color: grey;
 }
@@ -179,11 +213,13 @@ section:nth-of-type(6) h1 {
 section:nth-of-type(6) p:nth-of-type(1) {
   border-bottom: 3px solid #000; 
 }
+/*transformers*/
 section:nth-of-type(7) {
   background-color: rgb(60, 131, 187);
   width: 225px;
   height: 715px;
 }
+/*overflow*/
 section:nth-of-type(8) {
   background-color: orange;
 }
