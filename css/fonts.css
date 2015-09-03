@@ -4,17 +4,18 @@ header p {
   color: #b8b8b8;
   font-size: 12px;
 }
-article h1 {
+article > h1 {
   font-family: Lato, sans-serif;
   font-weight: 100;
   color: #fff;
-  font-size: 279px;
+  font-size: 240px;
   letter-spacing: .09em;
 }
+/*positioning relatives*/
 section:nth-of-type(1) h1 {
   font-family: Oswald, sans-serif;
   color: #fdcd84;
-  font-size: 55px;
+  font-size: 75px;
 }
 section:nth-of-type(1) h2 {
   font-family: Merriweather, serif;
@@ -27,12 +28,15 @@ section:nth-of-type(1) p {
   color: #000;
   font-size: 25px;
 }
+/*box model*/
 section:nth-of-type(2) h1 {
   font-family: Lora, serif;
   font-weight: 700;
   font-style: italic;
   color: #5f5d66;
   font-size: 36px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 section:nth-of-type(2) p {
   font-family: Lato, sans-serif;
@@ -40,21 +44,33 @@ section:nth-of-type(2) p {
   color: #5f5d66;
   font-size: 19px;
 }
+/*staying afloat*/
 section:nth-of-type(3) h1 {
   font-family: Oswald, sans-serif;
   color: #247a5a;
   font-size: 21px;
+  text-align: right;
 }
 section:nth-of-type(3) p {
   font-family: Lato, sans-serif;
   color: #464646;
   font-size: 14px;
+  text-align: right;
+}
+/*bullets*/
+section:nth-of-type(4) h1 {
+  letter-spacing: .06em;
+  text-align: center;
 }
 section:nth-of-type(4) h1 .font-change {
   font-family: Lato, sans-serif;
   font-size: 12px;
+  font-weight: 700;
+  color: #e0c167;
+  position: relative; 
+  top: -2px; 
 }
-section:nth-of-type(4) h1 {
+section:nth-of-type(4) h1 .no-change {
   font-family: Oswald, sans-serif;
   color: #a97d35;
   font-size: 15px;
@@ -62,7 +78,7 @@ section:nth-of-type(4) h1 {
 section:nth-of-type(4) ul {
   font-family: Oswald, sans-serif;
   color: #e0e0e0;
-  list-style-type: none;
+  text-align: center;
 }
 section:nth-of-type(4) ul li ul:nth-of-type(1) li:nth-of-type(1), section:nth-of-type(4) ul li ul:nth-of-type(2) li:nth-of-type(1) {
   font-size: 79px;
@@ -94,7 +110,7 @@ section:nth-of-type(4) ul li ul:nth-of-type(4) li:nth-of-type(3) {
 section:nth-of-type(4) ul li ul:nth-of-type(5) li:nth-of-type(3) {
   font-size: 32px;
 }
-
+/*famous blocks*/
 section:nth-of-type(5) h1 {
   font-family: Oswald, sans-serif;
   color: #fff;
@@ -115,6 +131,7 @@ section:nth-of-type(5) a:hover {
   color: #fff;
   text-decoration: underline;
 }
+/*border bottom*/
 section:nth-of-type(6) h1 {
   font-family: Oswald, sans-serif;
   color: #000;
@@ -131,6 +148,7 @@ section:nth-of-type(6) p {
   color: #000;
   font-size: 22px;
 }
+/*transformers*/
 section:nth-of-type(7) h1 {
   font-family: Oswald, sans-serif;
   color: #fff;
@@ -181,6 +199,7 @@ section:nth-of-type(7) ul li:nth-of-type(4) {
   font-size: 39px;
   color: #fff;
 }
+/*overflow*/
 section:nth-of-type(8) p {
   font-family: Lora, serif;
   font-style: italic;
