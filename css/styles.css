@@ -16,13 +16,23 @@ article > h1 {
   margin-left: 20px;
     z-index: -500;
 }
-div.background {
+div.header-background {
   background-color: #ccc9da;
   position: absolute;
   top: 0;
   left: 0;
-  width: 56%;
+  width: 592px;
   height: 1034px;
+  margin-left: -140px;
+  z-index: -1000;
+}
+div.border-box-background {
+  background-color: #d8d5e4;
+  position: absolute;
+  top: 664px;
+  left: 0;
+  width: 592px;
+  height: 370px;
   margin-left: -140px;
   z-index: -1000;
 }
