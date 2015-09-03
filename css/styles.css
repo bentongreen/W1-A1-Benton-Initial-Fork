@@ -1,17 +1,14 @@
 /*** masthead ***/
-div.header-background {
-  background-color: #ccc9da;
-}
 header p {
   font-family: Lora, serif;
   font-style: italic;
   font-size: 12px;
   color: #b8b8b8;
 }
-/*** main content ***/
-div.border-box-background {
-  background-color: #d8d5e4;
+div.header-background {
+  background-color: #ccc9da;
 }
+/*** main content ***/
 article > h1 {
   font-family: Lato, sans-serif;
   font-weight: 100;
@@ -19,7 +16,28 @@ article > h1 {
   color: #fff;
   letter-spacing: .09em;
 }
+div.border-box-background {
+  background-color: #d8d5e4;
+}
 /*** positioning relatives ***/
+section:nth-of-type(1) h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 75px;
+  color: #fdcd84;
+  letter-spacing: -.01em;
+}
+section:nth-of-type(1) h2 {
+  font-family: Merriweather, serif;
+  font-size: 13px;
+  color: #cbb8a0;
+}
+section:nth-of-type(1) p {
+  font-family: Merriweather, serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #000;
+  line-height: 1.5em;
+}
 section:nth-of-type(1) h1 {
   /*background gradient shield - from css-tricks.com*/
   /* Safari 4-5, Chrome 1-9 */
@@ -42,14 +60,58 @@ section:nth-of-type(1) img:nth-of-type(1) {
   -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
   transform: rotate(-4deg);
 }
+/*** box model ***/
+section:nth-of-type(2) h1 {
+  font-family: Lora, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 36px;
+  color: #5f5d66;
+  text-align: center;
+}
+section:nth-of-type(2) p {
+  font-family: Lato, sans-serif;
+  font-size: 19px;
+  color: #5f5d66;
+  text-align: center;
+  line-height: 1.7em;
+}
 /*** staying afloat ***/
-
-/*bullets*/
+section:nth-of-type(3) h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 21px;
+  color: #247a5a;
+  text-align: right;
+}
+section:nth-of-type(3) p {
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  color: #464646;
+  text-align: right;
+  line-height: 1.35em;
+}
+/*** bullets ***/
 section:nth-of-type(4) h1 {
+  text-align: center;
+  letter-spacing: .06em;
   border-top: 1px solid rgb(231, 231, 231);
   border-bottom: 1px solid rgb(231, 231, 231);
 }
+section:nth-of-type(4) h1 .font-change {
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #e0c167; 
+}
+section:nth-of-type(4) h1 .no-change {
+  font-family: Oswald, sans-serif;
+  font-size: 15px;
+  color: #a97d35;
+}
 section:nth-of-type(4) ul {
+  font-family: Oswald, sans-serif;
+  color: #e0e0e0;
+  text-align: center;
   list-style-type: none;
 }
 section:nth-of-type(4) ul ul {
@@ -58,7 +120,27 @@ section:nth-of-type(4) ul ul {
 section:nth-of-type(4) ul ul:nth-of-type(5) {
   border-right: none;
 }
-/*famous blocks*/
+/*** famous blocks ***/
+section:nth-of-type(5) h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 49px;
+  color: #fff;
+}
+section:nth-of-type(5) figcaption {
+  font-family: Merriweather, serif;
+  font-size: 26px;
+  font-weight: 300;
+  color: #fff;
+}
+section:nth-of-type(5) a {
+  font-size: 18px;
+  color: #b8b1ad;
+  text-decoration: none; 
+}
+section:nth-of-type(5) a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
 section:nth-of-type(5) {
   width: 960px;
   margin: 0 auto;
@@ -90,7 +172,23 @@ section:nth-of-type(5) figcaption {
   display: block;
   margin-top: -33px;
 }
-/*border bottom*/
+/*** border bottom ***/
+section:nth-of-type(6) h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 82px;
+  color: #000;
+}
+section:nth-of-type(6) p:nth-of-type(1) {
+  font-family: Oswald, sans-serif;
+  font-size: 39px;
+  color: #000;
+}
+section:nth-of-type(6) p {
+  font-family: Merriweather, serif;
+  font-weight: 300;
+  font-size: 22px;
+  color: #000;
+}
 section:nth-of-type(6) {
   background-color: grey;
 }
@@ -100,15 +198,81 @@ section:nth-of-type(6) h1 {
 section:nth-of-type(6) p:nth-of-type(1) {
   border-bottom: 3px solid #000; 
 }
-/*transformers*/
+/*** transformers ***/
+section:nth-of-type(7) h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 31px;
+  color: #fff;
+}
+section:nth-of-type(7) span.size-change {
+  font-size: 21px;
+}
+section:nth-of-type(7) p {
+  font-family: Oswald, sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+section:nth-of-type(7) p:nth-of-type(1) {
+  font-family: Lora, serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #fff;
+}
+section:nth-of-type(7) p:nth-of-type(2) {
+  font-size: 14px;
+  color: #75a8d0;
+}
+section:nth-of-type(7) p:nth-of-type(2) span.size-change {
+  font-size: 32px;
+}
+section:nth-of-type(7) p:nth-of-type(3) {
+  font-size: 54px;
+}
+section:nth-of-type(7) ul {
+  list-style-type: none;
+}
+section:nth-of-type(7) ul li {
+  font-family: Oswald, sans-serif;
+  color: #75a8d0;
+}
+section:nth-of-type(7) ul li:nth-of-type(1) {
+  font-size: 14px;
+}
+section:nth-of-type(7) ul li:nth-of-type(2) {
+  font-size: 27px;
+  color: #fff;
+}
+section:nth-of-type(7) ul li:nth-of-type(3) {
+  font-size: 28px;
+}
+section:nth-of-type(7) ul li:nth-of-type(4) {
+  font-size: 39px;
+  color: #fff;
+}
 section:nth-of-type(7) {
   background-color: rgb(60, 131, 187);
   width: 225px;
   height: 715px;
 }
-/*overflow*/
+/*** overflow ***/
+section:nth-of-type(8) p {
+  font-family: Lora, serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #627078;
+  text-align: justify;  
+}
 section:nth-of-type(8) {
   background-color: orange;
+}
+/*** registration form ***/
+form h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 28px;
+}
+form label {
+  font-family: Lato, sans-serif;
+  font-size: 22px;
 }
 form {
   border: 1px solid rgb(231, 231, 231);
@@ -116,9 +280,21 @@ form {
   width: 500px;
   margin: 10px auto;
 }
+/*** footer ***/
 footer {
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  color: #bababa;
   border-top: 1px solid rgb(231, 231, 231);
-  width: 960;
-  padding-top: 23px;
-  margin-bottom: 80px;
+}
+footer strong.color-change {
+  color: #666; 
+}
+footer address {
+  font-family: Merriweather, serif;
+  font-style: normal;
+  font-size: 13px;
+  color: #989898;
+  text-align: right;
+  line-height: 1.5em;
 }

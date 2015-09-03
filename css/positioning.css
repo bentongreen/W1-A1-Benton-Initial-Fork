@@ -72,6 +72,9 @@ section:nth-of-type(2) {
   height: 310px;
   z-index: 0;
 }
+section:nth-of-type(2) h1 {
+padding-bottom: 20px;
+}
 section:nth-of-type(2) p {
   padding: 0px 25px; 
 }
@@ -107,6 +110,10 @@ section:nth-of-type(4) h1 {
   padding: 10px;
   margin-right: 40px;
 }
+section:nth-of-type(4) h1 .font-change {
+  position: relative; 
+  top: -2px;
+}
 section:nth-of-type(4) figure {
   margin: 25px 25px 0 60px;
   width: 717px;
@@ -141,4 +148,13 @@ section:nth-of-type(4) ul ul:nth-of-type(5) {
   margin-right: 0;
   padding: 228px 0px 30px 0px;
   width: 171px;
+}
+/*** footer ***/
+footer {
+  margin-bottom: 80px;
+  padding-top: 23px;
+  width: 960;
+}
+footer address {
+  float: right;
 }
