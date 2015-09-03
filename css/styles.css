@@ -16,7 +16,7 @@ article {
   background-color: white;
 }
 article > h1 {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 div.background {
   background-color: #ccc9da;
@@ -56,7 +56,7 @@ section:nth-of-type(1) img {
   -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
   transform: rotate(-4deg);
   position: absolute;
-  left: 368px;
+  left: 375px;
   top: 150px;
   z-index: -10;
 }
@@ -78,20 +78,65 @@ section:nth-of-type(2) figure {
 /*staying afloat*/
 section:nth-of-type(3) {
   background-color: yellow;
-  width: 20%;
+  width: 18%;
   float: left;
   clear: both;
-
 }
 /*bullets*/
 section:nth-of-type(4) {
   /*background-color: brown;*/
   float: right;
   clear: right;
-  border-color: rgb(233, 233, 233);
+  width: 82%;
+  margin-bottom: 30px;
+}
+section:nth-of-type(4) h1 {
+  padding: 10px;
+  border-top: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+section:nth-of-type(4) figure {
+  width: 717px;
+  margin: 25px 25px 0 65px;
 }
 section:nth-of-type(4) ul {
   list-style-type: none;
+  width: 860px;
+  margin: 0 auto;
+}
+section:nth-of-type(4) ul ul {
+  float: left;
+  width: 171px;
+  padding: 245px 0px 100px 0px;
+  border-right: 1px solid rgb(231, 231, 231);
+  margin-top: -290px;
+}
+section:nth-of-type(4) ul ul:nth-of-type(1) {
+  width: 156px;
+  margin-left: 15px;
+  padding-bottom: 30px;
+}
+section:nth-of-type(4) ul ul:nth-of-type(2) {
+  width: 164px;
+  padding-bottom: 30px;
+  /*margin-left: 15px;*/
+}
+section:nth-of-type(4) ul ul:nth-of-type(3) {
+  width: 156px;
+  padding-top: 275px;
+  padding-bottom: 30px;
+}
+section:nth-of-type(4) ul ul:nth-of-type(4) {
+  width: 162px;
+  padding-top: 220px;
+  padding-bottom: 30px;
+}
+section:nth-of-type(4) ul ul:nth-of-type(5) {
+  padding-top: 228px;
+  padding-bottom: 30px;
+  border-right: none;
+  margin-right: 0;
+  /*background-color: orange;*/
 }
 /*famous blocks*/
 section:nth-of-type(5) {
