@@ -108,16 +108,40 @@ section:nth-of-type(4) h1 .no-change {
   font-size: 15px;
   color: #a97d35;
 }
-section:nth-of-type(4) ul {
+section:nth-of-type(4) figcaption {
   font-family: Oswald, sans-serif;
   color: #e0e0e0;
   text-align: center;
   list-style-type: none;
 }
-section:nth-of-type(4) ul ul {
+span.bullet-size.small-font {
+  font-size: 31px;
+}
+span.bullet-size.medium-font {
+  font-size: 79px;
+}
+span.bullet-size.large-font {
+  font-size: 87px;
+}
+span.bullet-brand.small-font {
+  font-size: 28px;
+}
+span.bullet-brand.medium-font {
+  font-size: 38px;
+}
+span.bullet-brand.large-font {
+  font-size: 40px;
+}
+span.bullet-load.medium-font {
+  font-size: 32px;
+}
+span.bullet-load.large-font {
+  font-size: 40px;
+}
+section:nth-of-type(4) figure {
   border-right: 1px solid rgb(231, 231, 231);
 }
-section:nth-of-type(4) ul ul:nth-of-type(5) {
+section:nth-of-type(4) figure:nth-of-type(5) {
   border-right: none;
 }
 /*** famous blocks ***/
