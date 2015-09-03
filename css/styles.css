@@ -189,15 +189,6 @@ section:nth-of-type(6) p {
   font-size: 22px;
   color: #000;
 }
-section:nth-of-type(6) {
-  background-color: grey;
-}
-section:nth-of-type(6) h1 {
-  border-bottom: 20px solid #000; 
-}
-section:nth-of-type(6) p:nth-of-type(1) {
-  border-bottom: 3px solid #000; 
-}
 /*** transformers ***/
 section:nth-of-type(7) h1 {
   font-family: Oswald, sans-serif;
@@ -274,6 +265,7 @@ form label {
   font-family: Lato, sans-serif;
   font-size: 22px;
 }
+
 form {
   border: 1px solid rgb(231, 231, 231);
   padding: 20px;
