@@ -1,9 +1,23 @@
-/*** main content ***/
+/*** masthead ***/
 div.header-background {
   background-color: #ccc9da;
 }
+header p {
+  font-family: Lora, serif;
+  font-style: italic;
+  font-size: 12px;
+  color: #b8b8b8;
+}
+/*** main content ***/
 div.border-box-background {
   background-color: #d8d5e4;
+}
+article > h1 {
+  font-family: Lato, sans-serif;
+  font-weight: 100;
+  font-size: 240px;
+  color: #fff;
+  letter-spacing: .09em;
 }
 /*** positioning relatives ***/
 section:nth-of-type(1) h1 {
@@ -28,74 +42,21 @@ section:nth-of-type(1) img:nth-of-type(1) {
   -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
   transform: rotate(-4deg);
 }
-
 /*** staying afloat ***/
 
-section:nth-of-type(3) p {
-  margin-top: 15px;
-  margin-left: 35px;
-  margin-bottom: 10px;
-  line-height: 1.35em;
-}
-section:nth-of-type(3) figure {
-  width: 145px;
-  position: relative;
-  left: 45px;
-  top: 20px;
-  z-index: 10;
-}
 /*bullets*/
-section:nth-of-type(4) {
-  float: right;
-  clear: right;
-  width: 82%;
-  margin-bottom: 30px;
-}
 section:nth-of-type(4) h1 {
-  padding: 10px;
   border-top: 1px solid rgb(231, 231, 231);
   border-bottom: 1px solid rgb(231, 231, 231);
 }
-section:nth-of-type(4) figure {
-  width: 717px;
-  margin: 25px 25px 0 65px;
-}
 section:nth-of-type(4) ul {
   list-style-type: none;
-  width: 860px;
-  margin: 0 auto;
 }
 section:nth-of-type(4) ul ul {
-  float: left;
-  width: 171px;
-  padding: 245px 0px 100px 0px;
   border-right: 1px solid rgb(231, 231, 231);
-  margin-top: -290px;
-}
-section:nth-of-type(4) ul ul:nth-of-type(1) {
-  width: 156px;
-  margin-left: 15px;
-  padding-bottom: 30px;
-}
-section:nth-of-type(4) ul ul:nth-of-type(2) {
-  width: 164px;
-  padding-bottom: 30px;
-}
-section:nth-of-type(4) ul ul:nth-of-type(3) {
-  width: 156px;
-  padding-top: 275px;
-  padding-bottom: 30px;
-}
-section:nth-of-type(4) ul ul:nth-of-type(4) {
-  width: 162px;
-  padding-top: 220px;
-  padding-bottom: 30px;
 }
 section:nth-of-type(4) ul ul:nth-of-type(5) {
-  padding-top: 228px;
-  padding-bottom: 30px;
   border-right: none;
-  margin-right: 0;
 }
 /*famous blocks*/
 section:nth-of-type(5) {
